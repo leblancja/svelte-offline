@@ -1,9 +1,9 @@
-const postcssJitProps = require('postcss-jit-props');
-const openProps = require('open-props');
-const config = {
-    plugins: [
-        postcssJitProps(openProps),
-    ]
-};
+const postcssJitProps = require('postcss-jit-props')
+const OpenProps = require('open-props')
 
-module.exports = config;
+module.exports = {
+    plugins: [
+        postcssJitProps(OpenProps),
+        require('autoprefixer')
+    ]
+}
