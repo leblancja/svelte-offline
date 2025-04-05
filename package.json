@@ -43,5 +43,9 @@
 		"onlyBuiltDependencies": [
 			"esbuild"
 		]
+	},
+	"dependencies": {
+		"lucide-svelte": "^0.487.0",
+		"postcss-preset-env": "^10.1.5"
 	}
 }
